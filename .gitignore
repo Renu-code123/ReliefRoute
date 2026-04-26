@@ -1,0 +1,60 @@
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env*.local
+server/.env
+client/.env
+
+# ===========================
+# Node Modules
+# ===========================
+node_modules/
+client/node_modules/
+
+# ===========================
+# Build / Dist Output
+# ===========================
+dist/
+build/
+server/dist/
+client/dist/
+
+# ===========================
+# Database Files
+# ===========================
+*.db
+*.db-shm
+*.db-wal
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+npm-debug.log*
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# Misc
+# ===========================
+scratch/
+.cache/

@@ -1,0 +1,21 @@
+{
+  "name": "relief-route",
+  "version": "1.0.0",
+  "description": "Disaster Relief Supply Chain Allocator",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "npm --workspace=client run dev",
+    "dev:server": "npm --workspace=server run dev",
+    "seed": "npm --workspace=server run seed",
+    "build": "npm --workspace=client run build",
+    "install:all": "npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
