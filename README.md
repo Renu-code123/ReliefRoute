@@ -1,4 +1,4 @@
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Build With AI](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![AI](https://img.shields.io/badge/AI-Google%20Gemini-orange)
 ![Platform](https://img.shields.io/badge/platform-Web%20App-lightgrey)
