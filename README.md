@@ -1,3 +1,52 @@
+# 🚑 ReliefRoute (रिलीफ रूट)
+### Smart Resource Allocation for Disaster Relief
+
+> "Turning chaos into coordination with AI-powered precision."
+
+---
+
+## 🏆 About Solution Challenge 2026
+
+This project is built as part of the **Solution Challenge 2026 – Build with AI**, organized on the Hack2Skill platform.
+
+The challenge focuses on leveraging **Artificial Intelligence and Google technologies** to solve real-world problems and create impactful, scalable solutions.
+
+---
+
+## 👥 Team: Error_404
+
+> *"Where problems aren’t missing — just waiting to be solved."*
+
+### 👩‍💻 Team Members
+- **Renu Kumari Prajapati**
+- **Arushi Thalur**
+- **Muskan Yadav**
+
+---
+
+## 🌍 Problem Statement
+
+During disasters, relief operations face critical challenges:
+
+- ❌ Lack of internet connectivity in affected areas  
+- ❌ Inefficient and manual resource allocation  
+- ❌ Poor communication between coordinators  
+- ❌ Unequal distribution of resources (remote areas ignored)  
+
+---
+
+## 💡 Our Solution
+
+**ReliefRoute** is an **AI-powered, offline-first disaster relief platform** designed to:
+
+- 📍 Identify high-priority zones  
+- 🚚 Optimize resource distribution  
+- 📡 Enable communication without internet  
+- ⚖️ Ensure fair and unbiased allocation  
+
+It empowers coordinators to make **fast, data-driven decisions even in extreme conditions**.
+
+---
 # ReliefRoute (रिलीफ रूट)
 
 > Smart resource allocation for disaster relief
