@@ -1,0 +1,28 @@
+services:
+  # Backend Node.js Service
+  - type: web
+    name: relief-route-server
+    env: node
+    rootDir: server
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    disk:
+      name: sqlite-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: DB_PATH
+        value: /data/data.db
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3001"
+      # You will need to add these secret environment variables in the Render dashboard
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
