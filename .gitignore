@@ -54,6 +54,14 @@ desktop.ini
 *.swo
 
 # ===========================
+# Test / Debug Scripts
+# ===========================
+server/test.js
+server/test2.js
+server/test_chat.js
+server/src/testNdma.ts
+
+# ===========================
 # Misc
 # ===========================
 scratch/
