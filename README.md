@@ -2,6 +2,9 @@
 ### Smart Resource Allocation for Disaster Relief
 
 > "Turning chaos into coordination with AI-powered precision."
+> Smart resource allocation for disaster relief
+
+ReliefRoute is an AI-driven, offline-first disaster relief platform designed for coordinators operating in unstable network environments. It automates supply chain routing to prioritize the most critical, high-density, and low-accessibility zones following a disaster.
 
 ---
 
@@ -47,11 +50,6 @@ During disasters, relief operations face critical challenges:
 It empowers coordinators to make **fast, data-driven decisions even in extreme conditions**.
 
 ---
-# ReliefRoute (रिलीफ रूट)
-
-> Smart resource allocation for disaster relief
-
-ReliefRoute is an AI-driven, offline-first disaster relief platform designed for coordinators operating in unstable network environments. It automates supply chain routing to prioritize the most critical, high-density, and low-accessibility zones following a disaster.
 
 ## Features
 
