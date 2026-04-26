@@ -1,8 +1,62 @@
-# ReliefRoute (रिलीफ रूट)
+![Build With AI](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![AI](https://img.shields.io/badge/AI-Google%20Gemini-orange)
+![Platform](https://img.shields.io/badge/platform-Web%20App-lightgrey)
+![Status](https://img.shields.io/badge/status-Prototype-success)
+![Hackathon](https://img.shields.io/badge/Hackathon-Solution%20Challenge%202026-purple)
 
-> Smart resource allocation for disaster relief
+---
+# 🚑 ReliefRoute (रिलीफ रूट)
+### Smart Resource Allocation for Disaster Relief
+
+> "Turning chaos into coordination with AI-powered precision."
 
 ReliefRoute is an AI-driven, offline-first disaster relief platform designed for coordinators operating in unstable network environments. It automates supply chain routing to prioritize the most critical, high-density, and low-accessibility zones following a disaster.
+
+---
+
+## 🏆 About Solution Challenge 2026
+
+This project is built as part of the **Solution Challenge 2026 – Build with AI**, organized on the Hack2Skill platform.
+
+The challenge focuses on leveraging **Artificial Intelligence and Google technologies** to solve real-world problems and create impactful, scalable solutions.
+
+---
+
+## 👥 Team: Error_404
+
+> *"Where problems aren’t missing — just waiting to be solved."*
+
+### 👩‍💻 Team Members
+- **Renu Kumari Prajapati**
+- **Arushi Thalur**
+- **Muskan Yadav**
+
+---
+
+## 🌍 Problem Statement
+
+During disasters, relief operations face critical challenges:
+
+- ❌ Lack of internet connectivity in affected areas  
+- ❌ Inefficient and manual resource allocation  
+- ❌ Poor communication between coordinators  
+- ❌ Unequal distribution of resources (remote areas ignored)  
+
+---
+
+## 💡 Our Solution
+
+**ReliefRoute** is an **AI-powered, offline-first disaster relief platform** designed to:
+
+- 📍 Identify high-priority zones  
+- 🚚 Optimize resource distribution  
+- 📡 Enable communication without internet  
+- ⚖️ Ensure fair and unbiased allocation  
+
+It empowers coordinators to make **fast, data-driven decisions even in extreme conditions**.
+
+---
 
 ## Features
 
@@ -70,5 +124,11 @@ npm run seed
 - **`client/`**: The React UI. Notable structures include `useStore.ts` for Zustand global state, `offlineQueue.ts` for IndexedDB caching, and `meshComm.ts` for the 3-mode communication logic.
 - **`data.db`**: The local SQLite database, operating in WAL (Write-Ahead Logging) mode for durability.
 
-## License
-MIT
+## 📜 License
+
+MIT License © 2026 Error_404
+
+## 🙌 Acknowledgement
+
+Built for Solution Challenge 2026 – Build with AI
+Powered by innovation, AI, and teamwork 🚀
