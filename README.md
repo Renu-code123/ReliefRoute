@@ -2,7 +2,6 @@
 ### Smart Resource Allocation for Disaster Relief
 
 > "Turning chaos into coordination with AI-powered precision."
-> Smart resource allocation for disaster relief
 
 ReliefRoute is an AI-driven, offline-first disaster relief platform designed for coordinators operating in unstable network environments. It automates supply chain routing to prioritize the most critical, high-density, and low-accessibility zones following a disaster.
 
@@ -117,5 +116,11 @@ npm run seed
 - **`client/`**: The React UI. Notable structures include `useStore.ts` for Zustand global state, `offlineQueue.ts` for IndexedDB caching, and `meshComm.ts` for the 3-mode communication logic.
 - **`data.db`**: The local SQLite database, operating in WAL (Write-Ahead Logging) mode for durability.
 
-## License
-MIT
+## 📜 License
+
+MIT License © 2026 Error_404
+
+## 🙌 Acknowledgement
+
+Built for Solution Challenge 2026 – Build with AI
+Powered by innovation, AI, and teamwork 🚀
