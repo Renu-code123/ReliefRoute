@@ -47,7 +47,7 @@ During disasters, relief operations face critical challenges:
 
 ## 💡 Our Solution
 
-**ReliefRoute** is an **AI-powered, offline-first disaster relief platform** designed to:
+**ReliefRoute** is an **AI-powered, offline-first disaster relief platform** designed 
 
 - 📍 Identify high-priority zones  
 - 🚚 Optimize resource distribution  
