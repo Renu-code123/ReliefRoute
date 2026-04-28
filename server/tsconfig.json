@@ -13,14 +13,3 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"] 
 }
-{
-  "compilerOptions": {
-    "noUnusedLocals": false,
-    "noUnusedParameters": false
-  }
-}
-{
-  "compilerOptions": {
-    "types": ["vite/client"]
-  }
-}
