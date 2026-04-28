@@ -4,7 +4,7 @@ services:
     name: relief-route-server
     env: node
     rootDir: server
-    buildCommand: npm install && npx tsc
+    buildCommand: npm install && npx tsc -p server/tsconfig.json
     startCommand: node dist/index.js
     disk:
       name: sqlite-data
