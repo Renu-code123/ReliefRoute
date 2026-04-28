@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useStore, Zone } from '../store/useStore';
 import { Upload, Save, RefreshCw } from 'lucide-react';
 import PriorityBar from '../components/PriorityBar';
