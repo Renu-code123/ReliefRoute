@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Send, Globe, Radio, Smartphone, Users, User, Clock, MessageSquare } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { initMeshSocket, getMeshStatus, sendMessage, generateSmsUri, MeshMessage } from '../lib/meshComm';
