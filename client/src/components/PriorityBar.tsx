@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 
 interface PriorityBarProps {
   score: number; // 0 to 1

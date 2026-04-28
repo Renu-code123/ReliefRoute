@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useStore } from '../store/useStore';
 import ZoneMap from '../components/ZoneMap';
 import PriorityBar from '../components/PriorityBar';
-import { Play, Activity, RefreshCw, AlertTriangle, X } from 'lucide-react';
+import { Activity, RefreshCw, AlertTriangle, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { API_BASE_URL } from '../config';
 

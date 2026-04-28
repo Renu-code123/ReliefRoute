@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { useStore } from '../store/useStore';
 import { WifiOff } from 'lucide-react';
 import { useTranslation } from 'react-i18next';

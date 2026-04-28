@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'; 
 import { useStore, ZoneAllocation } from '../store/useStore';
 import { Printer, AlertTriangle, ShieldAlert, Warehouse, Download } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
@@ -125,7 +125,7 @@ export default function AllocationPlan() {
               const zone = zones.find(z => z.id === alloc.zoneId);
               const depot = depots.find(d => d.id === alloc.depotId);
               const isFlagged = auditResult?.flaggedZones?.some((f: any) => f.zoneId === alloc.zoneId);
-              const flaggedReason = auditResult?.flaggedZones?.find((f: any) => f.zoneId === alloc.zoneId)?.reason;
+              //const flaggedReason = auditResult?.flaggedZones?.find((f: any) => f.zoneId === alloc.zoneId)?.reason;  commented while debugging
 
               return (
                 <tr key={alloc.zoneId} className={`group hover:bg-blue-50/30 transition-colors duration-300 ${isFlagged ? 'bg-amber-50/40' : ''}`}>

@@ -36,6 +36,7 @@ export interface ZoneAllocation {
   assignedResources: { food: number; medicine: number; shelterKits: number; rescueTeams: number };
   justification: string;
   estimatedETA: number;
+  routePolyline?: string; // written while debugging
 }
 
 export interface AllocationPlan {
@@ -69,6 +70,7 @@ interface StoreState {
   syncQueue: () => Promise<void>;
   setUser: (user: User | null) => void;
   logout: () => void;
+  lastSyncLog?: string;//written while debugging
 }
 
 export const useStore = create<StoreState>((set, get) => ({

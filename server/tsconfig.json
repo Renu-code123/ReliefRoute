@@ -12,3 +12,14 @@
   },
   "include": ["src/**/*"]
 }
+{
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  }
+}
+{
+  "compilerOptions": {
+    "types": ["vite/client"]
+  }
+}

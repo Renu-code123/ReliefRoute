@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Send, Bot, User, Sparkles } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useStore } from '../store/useStore';
@@ -13,13 +13,13 @@ interface ChatMsg {
 
 export default function AIAssistant() {
   const { t, i18n } = useTranslation();
-  const { isOnline, enqueueAction, setLatestPlan } = useStore();
+  const { isOnline, enqueueAction } = useStore(); // remove setlatestplan from variables
   const [messages, setMessages] = useState<ChatMsg[]>([
     { role: 'assistant', content: t('ai.hello') }
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
-  const [sessionId] = useState(() => Math.random().toString(36).substring(7));
+  //const [sessionId] = useState(() => Math.random().toString(36).substring(7));
 
   const quickActions = [
     t('ai.quick_action_1'),

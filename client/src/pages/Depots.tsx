@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useStore, Depot } from '../store/useStore';
 import { Save, MapPin, AlertTriangle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';

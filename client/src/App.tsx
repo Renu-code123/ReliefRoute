@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation, Navigate, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Map, List, MapPin, Warehouse, MessageSquare, Bot, ShieldCheck, Menu, X, Home, LogOut, Cloud, RefreshCw, ArrowLeft, Activity, User as UserIcon } from 'lucide-react';
+import { Map, List, MapPin, Warehouse, MessageSquare, Bot, ShieldCheck, Menu, Home, LogOut, Cloud, ArrowLeft, Activity, User as UserIcon } from 'lucide-react';
 import { useStore } from './store/useStore';
 import LanguageToggle from './components/LanguageToggle';
 import OfflineBanner from './components/OfflineBanner';
