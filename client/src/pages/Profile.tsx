@@ -110,7 +110,7 @@ export default function Profile() {
                   </div>
                   <p className="text-xs font-medium text-slate-300">
                     {lastSyncLog && lastSyncLog.length > 0 
-                      ? new Date(lastSyncLog[0] as { synced_at: string }).synced_at).toLocaleString() 
+                      ? new Date(lastSyncLog[0].synced_at).toLocaleString() 
                       : 'No sync history recorded'}
                   </p>
                 </div>
