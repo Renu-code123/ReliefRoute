@@ -18,3 +18,8 @@
     "noUnusedParameters": false
   }
 }
+{
+  "compilerOptions": {
+    "types": ["vite/client"]
+  }
+}
