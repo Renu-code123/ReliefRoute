@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Bot, WifiOff, ShieldCheck, Activity, Globe, HeartHandshake, Map, BarChart3, Database, Shield, Zap, UserPlus, LogIn, User as UserIcon, LogOut } from 'lucide-react';
