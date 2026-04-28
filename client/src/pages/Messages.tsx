@@ -209,10 +209,10 @@ export default function Messages() {
                   <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
                   {isMe && (
                     <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-slate-100/50 border border-slate-200/50">
-                      {msg.deliveredVia === 'internet' && <Globe size={10} title="Internet" className="text-emerald-500" />}
-                      {msg.deliveredVia === 'mesh' && <Radio size={10} title="Mesh Network" className="text-blue-500" />}
-                      {msg.deliveredVia === 'sms' && <Smartphone size={10} title="SMS Fallback" className="text-amber-500" />}
-                      {msg.deliveredVia === 'pending' && <Clock size={10} title="Pending" className="text-rose-500 animate-spin" />}
+                      {msg.deliveredVia === 'internet' && <Globe size={10} className="text-emerald-500" />}
+                      {msg.deliveredVia === 'mesh' && <Radio size={10}  className="text-blue-500" />}
+                      {msg.deliveredVia === 'sms' && <Smartphone size={10} className="text-amber-500" />}
+                      {msg.deliveredVia === 'pending' && <Clock size={10}  className="text-rose-500 animate-spin" />}
                       <span className="text-[9px] font-black text-slate-500 uppercase tracking-tighter">{msg.deliveredVia}</span>
                     </div>
                   )}
