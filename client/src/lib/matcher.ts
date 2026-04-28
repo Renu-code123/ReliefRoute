@@ -26,8 +26,8 @@ export interface ZoneAllocation {
   assignedResources: AssignedResources;
   justification: string;
   estimatedETA: number; // minutes
-  //routePolyline?: Array<{ lat: number; lng: number }>; // simplifying LatLng //comment out while error removal
-  routePolyline?: string
+  routePolyline?: Array<{ lat: number; lng: number }>; // simplifying LatLng 
+ // routePolyline?: string
 }
 
 export interface AllocationPlan {
