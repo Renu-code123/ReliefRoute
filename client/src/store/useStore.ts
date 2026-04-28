@@ -70,7 +70,8 @@ interface StoreState {
   syncQueue: () => Promise<void>;
   setUser: (user: User | null) => void;
   logout: () => void;
-  lastSyncLog?: string;//written while debugging
+  //lastSyncLog?: string;//written while debugging
+  lastSyncLog?: { synced_at: string }[];
 }
 
 export const useStore = create<StoreState>((set, get) => ({
